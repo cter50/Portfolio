@@ -18,11 +18,11 @@ const About = () => {
                     <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
                     <div>
                         <div>
-                            <p> Hi Everyone, I am HoiDanIT from Hanoi, VietNam.</p>
+                            <p> Hi Everyone, I am ChuBoLuyenCode from TPHCM, VietNam.</p>
 
                             <p> I am currently employed as a a freelance dev (start-up).</p>
 
-                            <p> I have completed Bachelor's degree in Software Engineer at Hanoi University of Science and Technology (HUST).</p>
+                            <p> I have completed Bachelor's degree in Software Engineer at Ho Chi Minh City University of Foreign Languages and Information Technology (HUFLIT).</p>
                         </div>
                     </div>
                     <div>
@@ -74,7 +74,7 @@ const About = () => {
                                             </div>
                                             <div className="info">
                                                 <p className="title">Softwaren Engineer</p>
-                                                <p className="company">Hanoi University of Science and Technology (HUST)</p>
+                                                <p className="company">Ho Chi Minh City University of Foreign Languages and Information Technology (HUFLIT)</p>
                                             </div>
                                         </div>
                                     </div>
