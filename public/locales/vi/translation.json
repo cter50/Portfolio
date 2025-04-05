@@ -1,6 +1,6 @@
 {
     "appHeader": {
-        "brand": "Hỏi Dân IT",
+        "brand": "ChuBoLuyenCode",
         "home": "Trang chủ",
         "project": "Dự án",
         "contact": "Liên hệ",
@@ -24,5 +24,9 @@
     },
     "skill": {
         "title": "Kỹ năng"
+    },
+    "project": {
+        "heading3": "Các Dự Án Gần Đây Của Tôi",
+        "description": "Các dự án của tôi"
     }
 }

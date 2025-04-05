@@ -1,14 +1,14 @@
 import { Col, Row } from "react-bootstrap";
-import AnimationLottie from "../../share/animation-lottie";
-import codingJSON from '../../../assets/lottie/coding.json';
-import { DEVELOPMENT_LOTTIE } from "../../../assets/lottie/string/development";
-import { CONTACT_LOTTIE } from "../../../assets/lottie/string/contact";
+import AnimationLottie from "components/share/animation-lottie";
+import codingJSON from 'assets/lottie/coding.json';
+import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
+import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
 
-import GlowCard from "../../share/glow-card";
+import GlowCard from "components/share/glow-card";
 import { FaGraduationCap } from "react-icons/fa6";
-import Divider from "../divider";
-import { APP_DATA } from "../../../helpers/data";
-import SocialMedia from "../social.media";
+import Divider from "components/sections/divider";
+import { APP_DATA } from "helpers/data";
+import SocialMedia from "components/sections/social.media";
 
 const About = () => {
     return (
@@ -90,10 +90,10 @@ const About = () => {
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
                     <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
                     <SocialMedia
-                        youtube={APP_DATA.YOUTUBE_URL}
+                        linkedin={APP_DATA.LINKEDIN_URL}
                         facebook={APP_DATA.FACEBOOK_URL}
                         tiktok={APP_DATA.TIKTOK_URL}
-                        udemy={APP_DATA.UDEMY_URL}
+                        github={APP_DATA.GITHUB_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
